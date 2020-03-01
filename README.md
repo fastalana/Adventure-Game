@@ -7,7 +7,7 @@ This project was built for the Udacity Introduction to Prorgaming Nanodegree. Th
 * From the directory where you cloned the respository, run 
 ```python3 adventure_game.py```
 * The prompts will lead you through the game.
-# Enjoy!
+* Enjoy!
 
 
 ## Udacity Information:
