@@ -51,7 +51,7 @@ def cave(items):
 
 
 def play_again(items):
-    again = input("Would you like to play again? (y/n)")
+    again = input("Would you like to play again? (y/n)").lower()
     if again == 'y':
         choose(items)
     elif again == 'n':
