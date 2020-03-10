@@ -4,7 +4,6 @@ import random
 villian = ['pirate', 'vampire', 'dragon', 'beast', 'monster', 'giant']
 bad_guy = random.choice(villian)
 
-
 def print_pause(message_to_print):
     print(message_to_print)
     time.sleep(1)
@@ -64,13 +63,13 @@ def play_again(items):
 def fight(items):
     print_pause("You do your best... \n")
     if "sword" in items:
-        print_pause("As the pirate moves to attack,")
+        print_pause("As the " + (bad_guy) + " moves to attack,")
         print_pause("...you unsheath your new sword.")
         print_pause("The magical sword shines brightly in your hand")
         print_pause("as you brace yourself for the attack.")
-        print_pause("But the pirate takes one look at your shiny new toy")
+        print_pause("But the " + (bad_guy) + " takes one look at your shiny new toy")
         print_pause("and runs away!")
-        print_pause("You have rid the town of the pirate. You are victorious!")
+        print_pause("You have rid the town of the " + (bad_guy) + ". You are victorious!")
     elif "dagger" in items:
         print_pause("but your dagger is no match for the " + (bad_guy) + ".")
         print_pause("you have been defeated\n")
@@ -80,7 +79,7 @@ def fight(items):
 def flight(items):
     print_pause("You run back into the field.")
     print_pause("Luckily, you don't seem to have been followed.")
-    choose(items)
+    choose(items, bad_guy)
 
 
 def fight_or_flight(items):
