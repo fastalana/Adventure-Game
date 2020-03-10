@@ -79,7 +79,7 @@ def fight(items):
 def flight(items):
     print_pause("You run back into the field.")
     print_pause("Luckily, you don't seem to have been followed.")
-    choose(items, bad_guy)
+    choose(items)
 
 
 def fight_or_flight(items):
