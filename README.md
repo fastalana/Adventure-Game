@@ -1,5 +1,6 @@
 # Adventure-Game
 This project was built for the Udacity Introduction to Prorgaming Nanodegree. This project demonstrates an understanding of Python. This is a simple version of an old-fashioned text-based adventure game. 
+![Sample animation of what a successful, running game looks like](AdventureGame.gif)
 
 ## Playing the Game
 * Make sure you have Python 3 installed locally 
